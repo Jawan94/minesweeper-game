@@ -8,7 +8,53 @@
   <script src="./game.js"></script>
 </head>
 <body>
-  <h1>Minesweeper Game</h1>
+  <h1 id = 'header' >Minesweeper Game</h1>
+    <div class = "settings">
+      <label class = 'headers' >Height of Board: </label>
+      <select id= "height">
+        <option value ="10"> 10 </option>
+        <option value ="11"> 11 </option>
+        <option value ="12"> 12 </option>
+        <option value ="13"> 13 </option>
+        <option value ="14"> 14 </option>
+        <option value ="15"> 15 </option>
+        <option value ="16"> 16 </option>
+        <option value ="17"> 17 </option>
+        <option value ="18"> 18 </option>
+        <option value ="19"> 19 </option>
+        <option value ="20"> 20 </option>
+      </select>
+    </div>
+    <div class = "settings">
+      <p class = "headers" >Width of Board: </p>
+      <select id= "width">
+        <option value ="10"> 10 </option>
+        <option value ="11"> 11 </option>
+        <option value ="12"> 12 </option>
+        <option value ="13"> 13 </option>
+        <option value ="14"> 14 </option>
+        <option value ="15"> 15 </option>
+        <option value ="16"> 16 </option>
+        <option value ="17"> 17 </option>
+        <option value ="18"> 18 </option>
+        <option value ="19"> 19 </option>
+        <option value ="20"> 20 </option>
+      </select>
+    </div>
+      <div class = "settings">
+        <p class = 'headers' >Number of Bombs: </p>
+        <select id= "bom">
+          <option value ="10"> 10 </option>
+          <option value ="15"> 15 </option>
+          <option value ="20"> 20 </option>
+          <option value ="25"> 25 </option>
+        </select>
+      </div>
+      <button id = "createBoard" > render the board </button>
+      <div class = "outerBoard">
+
+      </div>
+
   <div id="root"></div>
 </body>
 </html>
